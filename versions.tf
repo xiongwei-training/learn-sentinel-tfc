@@ -13,7 +13,7 @@ terraform {
   required_version = ">= 0.15"
 
   backend "remote" {
-    organization = "<YOUR_TERRAFORM_ORG>"
+    organization = "Fujitsu-wx-training"
 
     workspaces {
       name = "sentinel-example"
